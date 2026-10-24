@@ -12,7 +12,7 @@ The notebook is used for model development and evaluation. Decision
 Tree, Random Forest, and XGBoost models are compared, and XGBoost is
 selected as the final model for the application.
 
-<img width="700" height="400" alt="BLOCK DIAGRAM"<img width="1774" height="887" alt="Credit Risk Prediction Workflow Diagram" src="https://github.com/user-attachments/assets/fa4f15e6-dc9e-4949-ba69-12ed7938d18d" />
+<img width="700" height="400" alt="BLOCK DIAGRAM"<img width="1774" height="887" alt="Credit Risk Prediction Workflow Diagram" https://github.com/user-attachments/assets/fa4f15e6-dc9e-4949-ba69-12ed7938d18d />
 
 
 ## Features
