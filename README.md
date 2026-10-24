@@ -1,9 +1,9 @@
-## Credit Risk Prediction App
+# Credit Risk Prediction App
 A machine learning web application that predicts whether a loan
 applicant falls into the GOOD (lower risk) or BAD (higher risk)
 category. The app uses a trained XGBoost classifier and a Streamlit
 interface.
-# Project Overview
+## Project Overview
 Banks and lending organizations assess applicant details before making
 lending decisions. This project demonstrates how machine learning helps
 classify credit risk from applicant information.
@@ -12,7 +12,7 @@ The notebook is used for model development and evaluation. Decision
 Tree, Random Forest, and XGBoost models are compared, and XGBoost is
 selected as the final model for the application.
 
-# Features
+## Features
 - Predict credit risk for one applicant.
 - Compare predictions for two applicants.
 - Display the predicted class and model probability scores.
@@ -22,7 +22,7 @@ selected as the final model for the application.
 - Load the trained model and categorical encoders from saved Joblib
   files.
   
-# Input Features
+## Input Features
 The application uses these eight features:
 
   Feature            Description
@@ -38,7 +38,7 @@ The application uses these eight features:
 The app uses saved LabelEncoder objects for the categorical features
 Sex, Housing, Saving accounts, and Checking account.
 
-# Machine Learning Workflow
+## Machine Learning Workflow
 1. Load and inspect the credit risk dataset in the notebook.
 2. Prepare the data and encode categorical features.
 3. Split the data into training and testing sets.
@@ -48,7 +48,7 @@ Sex, Housing, Saving accounts, and Checking account.
 7. Load the saved files in the Streamlit application.
 8. Enter applicant details and generate a credit risk prediction.
 
-# Technology Stack
+## Technology Stack
 - Python
 - Pandas
 - Scikit-learn
